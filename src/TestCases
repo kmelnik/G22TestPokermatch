@@ -1,0 +1,40 @@
+test cases PM
+
+Test case # PM-1
+Summary - Authorization of current user
+Pre-comdition - User is registrated
+Description:
+1. Open web-site http://pokermatch.com/
+2. Click the button Login
+3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
+3. Push the button Sign in
+Expected result - Successful authorization. The presence in header such elements:
+- Ваш логин:
+- Номер счета:
+- На счете:
+
+Test case # PM-2
+Summary - Authorization of current user
+Pre-comdition - User is registrated
+Description:
+1. Open web-site http://pokermatch.com/
+2. Click the button Login
+3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - 666666)
+3. Push the button Sign in
+Expected result - message: "Wrong username or password"
+
+Test case # PM-3
+Summary - Registration of user
+Pre-comdition - User is not registrated
+Description:
+1. Open web-site http://pokermatch.com/
+2. Click the button Registration
+3. Put the valid data in fields of resistration form:
+- E-mail
+- Uniqui Login
+- Password
+- Select currency
+- Put mark in window "I agree with Terms and conditions and Privacy policy"
+- wrire valid captcha
+4. Push the button Sign up
+Expected result - Successful registration. Message: Registration email has been sent, please confirm your registration within 24h
