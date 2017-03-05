@@ -9,9 +9,7 @@ Description:
 3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
 3. Push the button Sign in
 Expected result - Successful authorization. The presence in header such elements:
-- Ваш логин:
-- Номер счета:
-- На счете:
+- Pin-code: ....
 
 Test case # PM-2
 Summary - Authorization of current user
@@ -19,7 +17,7 @@ Pre-comdition - User is registrated
 Description:
 1. Open web-site http://pokermatch.com/
 2. Click the button Login
-3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - 666666)
+3. Put the valid data in fields Email/login and Password (Email - dsds, Password - lsd666)
 3. Push the button Sign in
 Expected result - message: "Wrong username or password"
 
