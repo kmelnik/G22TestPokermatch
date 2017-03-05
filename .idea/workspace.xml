@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92fd169-7a4d-472b-bd33-56a115a1be81" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/mainPack/LoginFailedTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/mainPack/AppTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestCases" afterPath="$PROJECT_DIR$/src/TestCases" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UIMaping.properties" afterPath="$PROJECT_DIR$/src/UIMaping.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +44,8 @@
       <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,10 +112,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/mainPack/LoginFailedTest.java" />
         <option value="$PROJECT_DIR$/src/UIMaping.properties" />
         <option value="$PROJECT_DIR$/src/TestCases" />
+        <option value="$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -364,7 +360,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../G22Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestsPokermatch" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/mainPack" />
   </component>
@@ -798,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1488651611380</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2 tests - LoginPassed / LoginFailed, deleted - App test">
+      <created>1488729330188</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1488729330188</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -846,7 +849,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2817372" sideWeight="0.13326226" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.47441363" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.47441363" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2817372" sideWeight="0.8667377" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -894,7 +897,8 @@
     <MESSAGE value="GitIgnore" />
     <MESSAGE value="LoginTest and main properties" />
     <MESSAGE value="comment find text Authorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment find text Authorization" />
+    <MESSAGE value="2 tests - LoginPassed / LoginFailed, deleted - App test" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 tests - LoginPassed / LoginFailed, deleted - App test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1318,8 +1322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
