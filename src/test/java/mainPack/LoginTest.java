@@ -14,14 +14,12 @@ public class LoginTest extends ParentTest {
 
     @Test
     public void validLogOn() {
-        driver.get("https://pokermatch.com/");
-        driver.findElement(By.xpath(".//a[@href='#login']")).click(); // find button Login
-        driver.findElement(By.name("login")).clear();
-        driver.findElement(By.name("login")).sendKeys("mobtest");
-        driver.findElement(By.xpath(".//*[@id='login']//input[@name='password' and @type='text']")).clear();
-        driver.findElement(By.xpath(".//*[@id='login']//input[@name='password' and @type='text']")).sendKeys("lsd666");
-        driver.findElement(By.xpath(".//*[@id='login']//form/div[4]/button")).click();
-        checkAC("Failed Expected Result", driver.findElement(By.xpath(".//*[@class='info-list__item info-list__item_type_nickpin']")).isDisplayed(), true);
+        loginPage.open("https://pokermatch.com/");
+        loginPage.clickOnButtonLogin();
+        loginPage.enterLogin("mobtest");
+        loginPage.enterPass("lsd666");
+        loginPage.clickOnButtonLoginSignIn();
+        checkAC("Failed Expected Result", loginPage.actualResult(), true);
     }
 
 }
