@@ -7,32 +7,35 @@ Description:
 1. Open web-site http://pokermatch.com/
 2. Click the button Login
 3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
-3. Push the button Sign in
+4. Push the button Sign in
 Expected result - Successful authorization. The presence in header such elements:
 - Pin-code: ....
 
 Test case # PM-2
-Summary - Authorization of current user
+Summary - Unvalid test. Authorization of current user
 Pre-comdition - User is registrated
 Description:
 1. Open web-site http://pokermatch.com/
 2. Click the button Login
 3. Put the valid data in fields Email/login and Password (Email - dsds, Password - lsd666)
-3. Push the button Sign in
+4. Push the button Sign in
 Expected result - message: "Wrong username or password"
 
 Test case # PM-3
-Summary - Registration of user
-Pre-comdition - User is not registrated
+Summary - Transaction history checking
+Pre-comdition - User is registrated
 Description:
 1. Open web-site http://pokermatch.com/
-2. Click the button Registration
-3. Put the valid data in fields of resistration form:
-- E-mail
-- Uniqui Login
-- Password
-- Select currency
-- Put mark in window "I agree with Terms and conditions and Privacy policy"
-- wrire valid captcha
-4. Push the button Sign up
-Expected result - Successful registration. Message: Registration email has been sent, please confirm your registration within 24h
+2. Click the button Login
+3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
+4. Push the button Sign in
+5. Verify the presence button Cash
+5. Push the button Cash
+6. Verify the presence button Transaction history
+7. Push the button Transaction history
+Expected result - Opened page Transaction history with such elements:
+#
+Date
+Amount
+Type
+Wallet
