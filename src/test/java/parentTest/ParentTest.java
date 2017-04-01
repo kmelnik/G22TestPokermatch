@@ -1,6 +1,8 @@
 package parentTest;
 
+import Pages.AuthorizedMainPage;
 import Pages.LoginPage;
+import Pages.MainPage;
 import libs.Utils;
 import org.apache.log4j.Logger;
 import org.junit.After;
@@ -36,6 +38,8 @@ public class ParentTest {
     private String browser; // manage browsers - @Parameterized.Parameters
 
     protected LoginPage loginPage;
+    protected MainPage mainPage;
+    protected AuthorizedMainPage authorizedMainPage;
 
     public ParentTest(String browser) {
         this.browser = browser;
@@ -97,6 +101,8 @@ public class ParentTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         loginPage = new LoginPage(driver);
+        mainPage = new MainPage(driver);
+        authorizedMainPage = new AuthorizedMainPage(driver);
 
     }
 

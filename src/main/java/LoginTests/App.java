@@ -1,4 +1,4 @@
-package mainPack;
+package LoginTests;
 
 /**
  * Hello world!

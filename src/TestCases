@@ -1,24 +1,28 @@
 test cases PM
 
 Test case # PM-1
-Summary - Authorization of current user
+Summary - Authorization of current user. Positive test.
 Pre-comdition - User is registrated
 Description:
 1. Open web-site http://pokermatch.com/
+1.1. Check BrandName "Pokermatch" is present
 2. Click the button Login
-3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
-4. Push the button Sign in
-Expected result - Successful authorization. The presence in header such elements:
+3. Check AuthFormTitle "Authorization" is present
+4. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
+5. Push the button Sign in
+Expected result - Successful authorization. Authorized Main Page is present and the presence in header such elements:
 - Pin-code: ....
 
 Test case # PM-2
-Summary - Unvalid test. Authorization of current user
+Summary - Negative test. Authorization of current user with unvalid Login
 Pre-comdition - User is registrated
 Description:
 1. Open web-site http://pokermatch.com/
+1.1. Check BrandName "Pokermatch" is present
 2. Click the button Login
-3. Put the valid data in fields Email/login and Password (Email - dsds, Password - lsd666)
-4. Push the button Sign in
+3. Check AuthFormTitle "Authorization" is present
+4. Put the valid data in fields Email/login and Password (Email - dsds1, Password - lsd666)
+5. Push the button Sign in
 Expected result - message: "Wrong username or password"
 
 Test case # PM-3
