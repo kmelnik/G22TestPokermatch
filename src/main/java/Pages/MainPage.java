@@ -7,8 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class MainPage extends ParentPage {
 
-
-    @FindBy(xpath = ".//a[@href='#login']")
+    @FindBy(xpath = ".//*//a[@href='#login']")
     WebElement buttonLogin;
 
     public MainPage (WebDriver driver) {

@@ -10,10 +10,10 @@ public class LoginPage extends ParentPage {
     @FindBy(xpath = ".//*[@id='login']//*//h4[text()='Authorization']")
     WebElement authFormTitle;
 
-    @FindBy(xpath = ".//*[@id='login']//input[@name='login']")
+    @FindBy(name="login")
     WebElement loginInput;
 
-    @FindBy(xpath = ".//*[@id='login']//input[@name='password' and @type='text']")
+    @FindBy(name="password")
     WebElement passInput;
 
     @FindBy(xpath = ".//*[@id='login']//form/div[4]/button")
@@ -21,22 +21,17 @@ public class LoginPage extends ParentPage {
 
     @FindBy(xpath = ".//*[@id='login']//*[@class='modala__error' and @style='display: block;']")
     WebElement loginErrorMessage;
+
     public LoginPage(WebDriver driver) {
         super(driver);
     }
 
-    public void checkAuthFormTitle () {
+    public void checkAuthFormTitle() {
         actionsWithOurElements.isElementPresent(authFormTitle);
     }
+
     public void enterLogin(String login) {
-        try {
-            loginInput.clear();
-            loginInput.sendKeys(login);
-            logger.info(login + " was entered in input ");
-        } catch (Exception e) {
-            logger.error("Cannot work with input login");
-            Assert.fail("Cannot work with input login");
-        }
+        actionsWithOurElements.enterText(loginInput, login);
     }
 
     public void enterPass(String pass) {
@@ -47,13 +42,13 @@ public class LoginPage extends ParentPage {
     private void clickButtonSighIn() {
         actionsWithOurElements.clickOnElement(buttonSignIn);
     }
-    public void loginUser(String login, String pass){
+
+    public void loginUser(String login, String pass) {
         enterLogin(login);
         enterPass(pass);
         clickButtonSighIn();
 
     }
-
 
     public Boolean isErrorMessagePresent() {
         return actionsWithOurElements.isElementPresent(loginErrorMessage);

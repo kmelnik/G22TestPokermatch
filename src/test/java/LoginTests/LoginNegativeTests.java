@@ -16,7 +16,7 @@ public class LoginNegativeTests extends ParentTest {
         mainPage.checkBrandLogo();
         mainPage.clickButtonLogin();
         loginPage.checkAuthFormTitle();
-        loginPage.loginUser("dsds1","lsd666");
+        loginPage.loginUser("dsds","lsd666");
 
         checkAC("Failed Expected Result", loginPage.isErrorMessagePresent(), true);
 

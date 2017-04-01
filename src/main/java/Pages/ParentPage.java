@@ -42,9 +42,10 @@ logger.info("Page was opened with url "+url);
         public void checkBrandLogo () {
         try {
            actionsWithOurElements.isElementPresent(brandLogo);
+           logger.info("Brand Logo is present");
         } catch (Exception e) {
-            logger.error("Can't work with page");
-            Assert.fail("Can't work with page");
+            logger.error("Can't find Brand Logo");
+            Assert.fail("Can't find Brand Logo");
         }
         }
 
