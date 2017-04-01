@@ -18,6 +18,6 @@ public class MainPage extends ParentPage {
     }
 
     public void clickButtonLogin() {
-        actionsWithOurElements.clickOnElement(buttonLogin);
+        actionsWithOurElements.clickOnElement(".//*//a[@href='#login']");
     }
 }

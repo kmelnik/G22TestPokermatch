@@ -19,16 +19,27 @@ public class ActionsWithOurElements {
     public ActionsWithOurElements(WebDriver driver) {
         this.driver = driver;
         logger = Logger.getLogger(getClass());
-       // webDriverWait15 = new WebDriverWait(driver, 15);
-       // webDriverWait20 = new WebDriverWait(driver, 20);
+       webDriverWait15 = new WebDriverWait(driver, 15);
+       webDriverWait20 = new WebDriverWait(driver, 20);
     }
 
 
     public void enterText(WebElement element, String text) {
-        try {
-            //webDriverWait15.until(ExpectedConditions.visibilityOf(element));
-            element.clear();
+       try {
+           webDriverWait15.until(ExpectedConditions.visibilityOf(element));
+          element.clear();
             element.sendKeys(text);
+           logger.info(text + " was inputed");
+
+        } catch (Exception e) {
+          logger.error("Can not work with input");
+          Assert.fail("Can not work with input");
+      }
+    }
+    public void enterText(String xpathLocator, String text) {
+        try {
+            driver.findElement(By.xpath(xpathLocator)).clear();
+            driver.findElement(By.xpath(xpathLocator)).sendKeys(text);
             logger.info(text + " was inputed");
 
         } catch (Exception e) {
@@ -84,26 +95,6 @@ public class ActionsWithOurElements {
         }
     }
 
-
-
-    public void clickAvatar (String xpathLocator) {
-        try {
-            driver.findElement(By.xpath(xpathLocator)).click();
-            logger.info("Element was found and clicked");
-        } catch (Exception e) {
-            logger.error("Cannot found element Avatar");
-            Assert.fail("Cannot found element Avatar");
-        }
-    }
-    public void clickProfile (String xpathLocator) {
-        try {
-            driver.findElement(By.xpath(xpathLocator)).click();
-            logger.info("Element was found and clicked");
-        } catch (Exception e) {
-            logger.error("Cannot found element Avatar");
-            Assert.fail("Cannot found element Avatar");
-        }
-    }
 
     public void checkTextInElement(String locator, String expectedText) {
         try {

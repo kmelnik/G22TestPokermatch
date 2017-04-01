@@ -10,7 +10,7 @@ public class LoginPage extends ParentPage {
     @FindBy(xpath = ".//*[@id='login']//*//h4[text()='Authorization']")
     WebElement authFormTitle;
 
-    @FindBy(name="login")
+    @FindBy(xpath = ".//*[@id='login']/div/div/div[2]/form/div[1]/input")
     WebElement loginInput;
 
     @FindBy(name="password")
@@ -31,16 +31,16 @@ public class LoginPage extends ParentPage {
     }
 
     public void enterLogin(String login) {
-        actionsWithOurElements.enterText(loginInput, login);
+        actionsWithOurElements.enterText(".//*[@id='login']//input[@name='login']", login);
     }
 
     public void enterPass(String pass) {
 
-        actionsWithOurElements.enterText(passInput, pass);
+        actionsWithOurElements.enterText(".//*[@id='login']//input[@name='password' and @type='text']", pass);
     }
 
     private void clickButtonSighIn() {
-        actionsWithOurElements.clickOnElement(buttonSignIn);
+        actionsWithOurElements.clickOnElement(".//*[@id='login']//form/div[4]/button");
     }
 
     public void loginUser(String login, String pass) {
@@ -51,7 +51,7 @@ public class LoginPage extends ParentPage {
     }
 
     public Boolean isErrorMessagePresent() {
-        return actionsWithOurElements.isElementPresent(loginErrorMessage);
+        return actionsWithOurElements.isElementPresent(".//*[@id='login']//*[@class='modala__error' and @style='display: block;']");
     }
 }
 
