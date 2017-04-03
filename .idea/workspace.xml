@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c92fd169-7a4d-472b-bd33-56a115a1be81" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Pages/CashPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/CashTests/TransactionHistoryTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestCases" afterPath="$PROJECT_DIR$/src/TestCases" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java" afterPath="$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" afterPath="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" afterPath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,21 +24,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginPositiveTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginPositiveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state relative-caret-position="272">
+              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +39,14 @@
       <file leaf-file-name="AuthorizedMainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="100" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="100" />
+            <state relative-caret-position="255">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file leaf-file-name="ParentTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+            <state relative-caret-position="449">
+              <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,37 +76,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginNegativeTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginNegativeTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="53" column="130" lean-forward="false" selection-start-line="53" selection-start-column="130" selection-end-line="53" selection-end-column="130" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ActionsWithOurElements.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="707">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="233">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginNegativeTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginNegativeTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,19 +105,47 @@
       <file leaf-file-name="UIMaping.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UIMaping.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCases" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestCases" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestCases">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+            <state relative-caret-position="496">
+              <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionHistoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CashTests/TransactionHistoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CashPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,17 +184,19 @@
         <option value="$PROJECT_DIR$/src/test/java/mainPack/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/mainPack/LoginFailedTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests/LoginPositiveTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/ParentPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests/LoginNegativeTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java" />
         <option value="$PROJECT_DIR$/src/UIMaping.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CashTests/TransactionHistoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" />
         <option value="$PROJECT_DIR$/src/TestCases" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/CashPage.java" />
       </list>
     </option>
   </component>
@@ -217,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,6 +315,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screenshot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CashTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="G22TestPokerdom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="G22TestPokerdom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -351,6 +390,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LoginTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="G22TestPokerdom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="G22TestPokerdom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CashTests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,11 +524,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../G22Project" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/libs" />
   </component>
@@ -482,7 +548,7 @@
       <recent name="D:\workspace\G22TestPokerdom\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests in G22TestPokerdom">
+  <component name="RunManager" selected="JUnit.TransactionHistoryTest">
     <configuration default="false" name="LoginPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -497,32 +563,6 @@
       <option name="MAIN_CLASS_NAME" value="LoginTests.LoginPositiveTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LoginPositiveTestWithOutPageObject.loginPositiveTestWithOutPageObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="LoginTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="G22TestPokerdom" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="mainPack" />
-      <option name="MAIN_CLASS_NAME" value="mainPack.LoginPositiveTestWithOutPageObject" />
-      <option name="METHOD_NAME" value="loginPositiveTestWithOutPageObject" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -601,6 +641,32 @@
       <option name="MAIN_CLASS_NAME" value="LoginTests.LoginPositiveTest" />
       <option name="METHOD_NAME" value="validLogOn" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TransactionHistoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="CashTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="G22TestPokerdom" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="CashTests" />
+      <option name="MAIN_CLASS_NAME" value="CashTests.TransactionHistoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -819,18 +885,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginPositiveTestWithOutPageObject.loginPositiveTestWithOutPageObject" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginTests in G22TestPokerdom" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginNegativeTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest.validLogOn" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTests in G22TestPokerdom" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginNegativeTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest.validLogOn" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TransactionHistoryTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginTests in G22TestPokerdom" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginNegativeTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest.validLogOn" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LoginPositiveTestWithOutPageObject.loginPositiveTestWithOutPageObject" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TransactionHistoryTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginTests in G22TestPokerdom" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginNegativeTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LoginPositiveTest.validLogOn" />
       </list>
     </recent_temporary>
   </component>
@@ -964,39 +1030,46 @@
       <option name="project" value="LOCAL" />
       <updated>1491075250439</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated  tests">
+      <created>1491205840458</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1491205840458</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.01 at 22h 01m 19s.xml">
+    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.03 at 17h 20m 02s.xml">
       <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.01 at 22h 04m 57s.xml">
+    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.03 at 17h 22m 00s.xml">
       <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.01 at 22h 08m 21s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 16h 30m 08s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.01 at 22h 19m 28s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 16h 30m 45s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.01 at 22h 21m 34s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 16h 32m 33s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.01 at 22h 33m 48s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 16h 49m 16s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.03 at 10h 42m 14s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 16h 52m 50s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.03 at 10h 43m 50s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 17h 14m 17s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.03 at 10h 45m 31s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 17h 31m 14s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginTests_in_G22TestPokerdom - 2017.04.03 at 10h 46m 29s.xml">
-      <configuration name="LoginTests in G22TestPokerdom" configurationId="JUnit" />
+    <history-entry file="TransactionHistoryTest - 2017.04.03 at 17h 37m 07s.xml">
+      <configuration name="TransactionHistoryTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1012,19 +1085,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2817372" sideWeight="0.13326226" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2817372" sideWeight="0.8667377" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27951002" sideWeight="0.47441363" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2817372" sideWeight="0.8667377" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3672708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37579957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1064,7 +1137,8 @@
     <MESSAGE value="2 tests - LoginPassed / LoginFailed, deleted - Apptest" />
     <MESSAGE value="Updated tests with PageObject" />
     <MESSAGE value="Updated Login tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Login tests" />
+    <MESSAGE value="Updated  tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated  tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1075,30 +1149,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/libs/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginPositiveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCases">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UIMaping.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1342,7 +1392,7 @@
         <state relative-caret-position="697">
           <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1370,30 +1420,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="e#730#731#0" expanded="false" />
+            <element signature="e#759#760#0" expanded="false" />
+            <element signature="e#1211#1212#0" expanded="false" />
+            <element signature="e#1305#1306#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UIMaping.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/screenshot/CashTests/TransactionHistoryTest/transactionHistoryTest[0]-chrome.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+        <state relative-caret-position="449">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginNegativeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCases">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="38" column="26" lean-forward="false" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginPositiveTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="68" lean-forward="false" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/AuthorizedMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="100" lean-forward="false" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="100" />
+        <state relative-caret-position="272">
+          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1410,49 +1520,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests/LoginNegativeTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CashTests/TransactionHistoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/CashPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="53" column="130" lean-forward="false" selection-start-line="53" selection-start-column="130" selection-end-line="53" selection-end-column="130" />
+        <state relative-caret-position="575">
+          <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UIMaping.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCases">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>

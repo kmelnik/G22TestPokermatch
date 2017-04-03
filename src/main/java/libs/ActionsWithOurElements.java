@@ -68,6 +68,8 @@ public class ActionsWithOurElements {
     }
     public void clickOnElement(String xpathLocator) {
         try {
+            webDriverWait15.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathLocator)));
+            webDriverWait20.until(ExpectedConditions.not(ExpectedConditions.invisibilityOfElementLocated(By.xpath(xpathLocator))));
             driver.findElement(By.xpath(xpathLocator)).click();
             logger.info("Element was clicked");
 
@@ -77,12 +79,6 @@ public class ActionsWithOurElements {
         }
     }
 
-    /**
-     * Method checked is element present on page
-     *
-     * @param xpathLocator
-     * @return
-     */
 
     public boolean isElementPresent(String xpathLocator) {
         try {

@@ -1,6 +1,7 @@
 package parentTest;
 
 import Pages.AuthorizedMainPage;
+import Pages.CashPage;
 import Pages.LoginPage;
 import Pages.MainPage;
 import libs.Utils;
@@ -40,6 +41,7 @@ public class ParentTest {
     protected LoginPage loginPage;
     protected MainPage mainPage;
     protected AuthorizedMainPage authorizedMainPage;
+    protected CashPage cashPage;
 
     public ParentTest(String browser) {
         this.browser = browser;
@@ -48,9 +50,9 @@ public class ParentTest {
     @Parameterized.Parameters
     public static Collection testData() {
         return Arrays.asList(new Object[][]{
-//                 {"fireFox"}
+ //                {"fireFox"}
 //                ,
-                    {"chrome"}
+            {"chrome"}
 //                ,
 //                { "iedriver" }
 //                ,
@@ -67,7 +69,7 @@ public class ParentTest {
 
         if ("fireFox".equals(browser)) {
             log.info("FireFox will be started");
-            File fileFF = new File(".././drivers/geckodriver.exe");
+            File fileFF = new File("/workspace/G22TestPokerdom/drivers/geckodriver.exe");
             System.setProperty("webdriver.gecko.driver", fileFF.getAbsolutePath());
             driver = new FirefoxDriver();
             log.info(" FireFox is started");
@@ -103,6 +105,7 @@ public class ParentTest {
         loginPage = new LoginPage(driver);
         mainPage = new MainPage(driver);
         authorizedMainPage = new AuthorizedMainPage(driver);
+        cashPage = new CashPage(driver);
 
     }
 
