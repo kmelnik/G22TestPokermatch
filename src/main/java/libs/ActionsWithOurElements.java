@@ -54,7 +54,18 @@ public class ActionsWithOurElements {
             return false;
         }
     }
+    public void clickOnElement(WebElement element) {
+        try {
+            webDriverWait20.until(ExpectedConditions.elementToBeClickable(element));
+            webDriverWait20.until(ExpectedConditions.not(ExpectedConditions.invisibilityOf(element)));
+            element.click();
+            logger.info("Element was clicked");
 
+        } catch (Exception e) {
+            logger.error("Can not work with button");
+            Assert.fail("Can not work with button");
+        }
+    }
     public void clickOnElement(String xpathLocator) {
         try {
             driver.findElement(By.xpath(xpathLocator)).click();
@@ -82,18 +93,7 @@ public class ActionsWithOurElements {
         }
     }
 
-    public void clickOnElement(WebElement element) {
-        try {
-            //webDriverWait20.until(ExpectedConditions.elementToBeClickable(element));
-            //  webDriverWait20.until(ExpectedConditions.not(ExpectedConditions.invisibilityOf(element)));
-            element.click();
-            logger.info("Element was clicked");
 
-        } catch (Exception e) {
-            logger.error("Can not work with button");
-            Assert.fail("Can not work with button");
-        }
-    }
 
 
     public void checkTextInElement(String locator, String expectedText) {

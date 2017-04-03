@@ -30,7 +30,9 @@ Summary - Transaction history checking
 Pre-comdition - User is registrated
 Description:
 1. Open web-site http://pokermatch.com/
+1.1. Check BrandName "Pokermatch" is present
 2. Click the button Login
+2.1. Check AuthFormTitle "Authorization" is present
 3. Put the valid data in fields Email/login and Password (Email - mobtest, Password - lsd666)
 4. Push the button Sign in
 5. Verify the presence button Cash
