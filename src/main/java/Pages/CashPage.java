@@ -29,8 +29,9 @@ public class CashPage extends ParentPage {
     }
 
     public void clickTransactionHistoryButton() {
-        actionsWithOurElements.clickOnElement(".//*[@id='with-js']/body//*[@data-url='/financeHistory/ca78b49455cc7a9f6cdf8fc89d3007e7450c1aa6']");
+        actionsWithOurElements.clickOnElement(".//*[contains(text(),'Transaction history')]");
     }
+
 
     public Boolean isTransactionHistoryItemsPresent() {
         return
