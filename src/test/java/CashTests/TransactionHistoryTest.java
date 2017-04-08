@@ -18,8 +18,7 @@ public class TransactionHistoryTest extends ParentTest {
         loginPage.loginUser("mobtest", "lsd666");
         authorizedMainPage.checkBalanceField();
         authorizedMainPage.clickBalanceField();
-        cashPage.checkTransactionHistoryButton();
-        cashPage.clickTransactionHistoryButton();
+        cashPage.openTransactionHistoryPage();
         checkAC("No such elements in Transaction History Page", cashPage.isTransactionHistoryItemsPresent(), true);
 
     }

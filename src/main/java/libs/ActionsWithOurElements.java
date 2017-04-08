@@ -111,6 +111,16 @@ public class ActionsWithOurElements {
         }
         return textFromElement;
     }
+    public void workWithIframeCash (String xpathLocator) {
+        try {
+            driver.switchTo().frame(driver.findElement(By.xpath("//iframe")));
+            driver.findElement(By.xpath(xpathLocator)).click();
+            logger.info("Iframe was found");
 
+        } catch (Exception e) {
+            logger.error("Can not work with iframe elements");
+            Assert.fail("Can not work with iframe elements");
+        }
+    }
 }
 

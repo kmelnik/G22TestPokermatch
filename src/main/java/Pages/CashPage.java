@@ -1,12 +1,13 @@
 package Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ByIdOrName;
 import org.openqa.selenium.support.FindBy;
 
 public class CashPage extends ParentPage {
-    @FindBy(xpath = ".//*[@id='with-js']/body/div[1]/ul/li[3]")
-    WebElement buttonTransactionHistory;
+
     @FindBy(xpath = ".//*[@class='order_number']")
     WebElement orderNumberTransaction;
     @FindBy(xpath = ".//*[@class='date']")
@@ -23,23 +24,19 @@ public class CashPage extends ParentPage {
     }
 
 
+    public void openTransactionHistoryPage() {
 
-    public Boolean checkTransactionHistoryButton() {
-        return actionsWithOurElements.isElementPresent(buttonTransactionHistory);
+        actionsWithOurElements.workWithIframeCash(".//*[@id='with-js']/body/div[1]/ul/li[3]");
+
     }
-
-    public void clickTransactionHistoryButton() {
-        actionsWithOurElements.clickOnElement(".//*[contains(text(),'Transaction history')]");
-    }
-
 
     public Boolean isTransactionHistoryItemsPresent() {
         return
-                actionsWithOurElements.isElementPresent(orderNumberTransaction) &&
-                        actionsWithOurElements.isElementPresent(dateItem) &&
-                        actionsWithOurElements.isElementPresent(ammountItem) &&
-                        actionsWithOurElements.isElementPresent(typeTransactionItem) &&
-                        actionsWithOurElements.isElementPresent(walletItem);
+                actionsWithOurElements.isElementPresent(".//*[@class='order_number']") &&
+                        actionsWithOurElements.isElementPresent(".//*[@class='date']") &&
+                        actionsWithOurElements.isElementPresent(".//*[@class='amount']") &&
+                        actionsWithOurElements.isElementPresent(".//*[@class='type']") &&
+                        actionsWithOurElements.isElementPresent(".//*[@class='payment_info']");
 
     }
 
