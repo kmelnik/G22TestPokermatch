@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="G22TestPokerdom" />
+        <module name="G22TestPokermatch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="G22TestPokerdom" target="1.5" />
+      <module name="G22TestPokermatch" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
