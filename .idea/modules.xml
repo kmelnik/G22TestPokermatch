@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/G22TestPokerdom.iml" filepath="$PROJECT_DIR$/G22TestPokerdom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G22TestPokermatch.iml" filepath="$PROJECT_DIR$/G22TestPokermatch.iml" />
     </modules>
   </component>
 </project>

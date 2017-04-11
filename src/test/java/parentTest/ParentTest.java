@@ -75,7 +75,7 @@ public class ParentTest {
             log.info(" FireFox is started");
         } else if ("chrome".equals(browser)) {
             log.info("Chrome will be started");
-            File fileFF = new File("/workspace/G22TestPokerdom/drivers/chromedriver.exe");
+            File fileFF = new File("./drivers/chromedriver.exe");
             System.setProperty("webdriver.chrome.driver", fileFF.getAbsolutePath());
             driver = new ChromeDriver();
             log.info(" Chrome is started");
